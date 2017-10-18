@@ -1,0 +1,3 @@
+obj[0].children[1].children[1]
+var fs = require('fs');
+var obj = JSON.parse(fs.readFileSync('2017Week6.json', 'utf8'));
